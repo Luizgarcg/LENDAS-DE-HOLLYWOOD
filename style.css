@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "outfit";
+}
+
+.container{ width: 100%;
+  padding: 15px;
+
+
+}
+
+
+body,html {
+  background-color: #f2e0c9;
+  background-image: url(https://i.pinimg.com/736x/32/f6/5c/32f65c9dbe73737bba3c3d4855451976.jpg);
+  background-position:  center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(https://i.pinimg.com/736x/5b/30/71/5b3071e6a384fe9bde7c144b53429f71.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: inset -1px 0px 5px 0px black;
+  margin-top: 0%;
+  height: 500px;
+  max-width: 600px;
+}
+.d1 input {
+  margin-bottom: 10px;
+  border-radius: 8px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.603);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+input::placeholder{color: rgba(0, 0, 0, 0.596);
+  text-indent: 10px;
+}
+
+.d2 input {
+  margin-bottom: 10px;
+  border-radius: 8px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.603);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.d3 input {
+  width: 100px;
+  padding: 5px;
+  color: #e8ecee;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.603);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.ft {
+  background-image: url(https://i.pinimg.com/736x/9d/74/14/9d7414a2ad1b489e5e2c252b5c106956.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+
+.lo h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+.d3 input:hover{  background: rgba(101, 91, 4, 0.137); 
+  border-color: #5f4b09; 
+  box-shadow: 0 0 15px rgba(228, 148, 8, 0.4); }
