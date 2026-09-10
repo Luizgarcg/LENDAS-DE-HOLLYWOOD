@@ -66,8 +66,8 @@ width: 100%;
 
 #mary img{
     max-width: 100%;
-    width: 704px;
-    height: 704px;
+    width: 300px;
+    height: 400px;
     aspect-ratio: 1/16;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -99,8 +99,8 @@ background-position: center;
 
 .ad img{
     max-width: 100%;
-    width: 704px;
-    height: 704px;
+    width: 300px;
+    height: 400px;
     aspect-ratio: 1/16;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -124,8 +124,8 @@ background-position: center;}
     text-decoration: solid;}
 
 .la img{max-width: 100%;
-    width: 704px;
-    height: 704px;
+    width: 300px;
+    height: 400px;
     aspect-ratio: 1/16;
     margin-top: 20px;
     margin-bottom: 20px;
