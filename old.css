@@ -3,7 +3,7 @@ margin: 0;
 box-sizing: border-box;}
 
 body,html{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(184, 126, 126);
     
 }
 
@@ -45,18 +45,15 @@ div .foto{display: flex;
 justify-content: center;
 align-items: center;}
 
-#mary .mary{
-
+.mary{
 background-image: url(https://i.pinimg.com/1200x/e2/5c/ce/e25ccef72db3eccb82d64bec7925d0ea.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
 background-position: center;
 width: 100%;
-border-radius: 10%;
-
-
 }
+
 .mary h2{color: rgb(121, 87, 19);
     text-align: center;
     margin-top: 20px;
@@ -74,11 +71,70 @@ border-radius: 10%;
     aspect-ratio: 1/16;
     margin-top: 20px;
     margin-bottom: 20px;
-    border: 2px solid rgba(255, 217, 0, 0.504);
-    box-shadow: 10px 10px 10px brown;
 transition: transform 0.5s;
 border-radius: 30px 60px;
 
 }
 
 img:hover{transform: scale(1.05);}
+
+.ad{   
+background-image: url(https://i.pinimg.com/736x/a5/f9/f7/a5f9f7921290ecfb26735feb34ce3f53.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+}
+
+.ad h2{
+    color: rgb(80, 62, 28);
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: 100px;
+    text-shadow: -2px -4px 7px rgb(29, 26, 13);
+    text-decoration: solid;
+}
+
+.ad img{
+    max-width: 100%;
+    width: 704px;
+    height: 704px;
+    aspect-ratio: 1/16;
+    margin-top: 20px;
+    margin-bottom: 20px;
+transition: transform 0.5s;
+border-radius: 30px 60px;
+}
+
+.la{background-image: url(https://i.pinimg.com/736x/f8/7c/6f/f87c6fceab59f17a17fe1e6c488b0e96.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;}
+
+.la h2{color: rgb(215, 204, 184);
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: 100px;
+    text-shadow: -2px -4px 7px rgb(29, 26, 13);
+    text-decoration: solid;}
+
+.la img{max-width: 100%;
+    width: 704px;
+    height: 704px;
+    aspect-ratio: 1/16;
+    margin-top: 20px;
+    margin-bottom: 20px;
+transition: transform 0.5s;
+border-radius: 30px 60px;
+}
+
+img{transition: border ease 0.2;
+transition: box-shadow ease-out 0.2;}
+
+img:hover{ border: 3px solid rgba(255, 213, 2, 0.504);
+ box-shadow: 4px 4px 4px rgb(255, 220, 105);}
